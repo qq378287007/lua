@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libLua"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libLua\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libLua">
+				<Option output="C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua/liblibLua.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua"/>
+					<Add directory="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua/Makefile&quot;  VERBOSE=1 libLua"/>
+					<CompileFile command="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libLua/fast">
+				<Option output="C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua/liblibLua.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua"/>
+					<Add directory="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua/Makefile&quot;  VERBOSE=1 libLua/fast"/>
+					<CompileFile command="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lapi.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lapi.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lauxlib.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lauxlib.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lbaselib.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lcode.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lcode.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lcorolib.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lctype.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lctype.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/ldblib.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/ldebug.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/ldebug.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/ldo.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/ldo.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/ldump.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lfunc.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lfunc.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lgc.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lgc.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/linit.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/liolib.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/ljumptab.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/llex.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/llex.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/llimits.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lmathlib.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lmem.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lmem.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/loadlib.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lobject.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lobject.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lopcodes.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lopcodes.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lopnames.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/loslib.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lparser.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lparser.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lprefix.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lstate.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lstate.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lstring.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lstring.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lstrlib.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/ltable.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/ltable.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/ltablib.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/ltm.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/ltm.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lua.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/luaconf.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lualib.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lundump.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lundump.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lutf8lib.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lvm.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lvm.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lzio.c">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/lzio.h">
+			<Option target="libLua"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libLua\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

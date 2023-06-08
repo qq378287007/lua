@@ -1,0 +1,94 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "libLua",
+					"jsonFile" : "directory-libLua-Debug-ca8d95232735a65de861.json",
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libLua",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "testLua",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "libLua",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "libLua::@feaf161a24683964678a",
+					"jsonFile" : "target-libLua-Debug-859b64a5766ff4db6182.json",
+					"name" : "libLua",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testLua::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testLua-Debug-4e89bc42e1ba6986b0e6.json",
+					"name" : "testLua",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/mali/Desktop/lua/lua5.4.6/testLua"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
