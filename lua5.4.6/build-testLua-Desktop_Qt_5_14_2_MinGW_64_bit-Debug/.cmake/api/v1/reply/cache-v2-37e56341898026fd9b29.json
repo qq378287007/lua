@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/addr2line.exe"
+			"value" : "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/addr2line.exe"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/ar.exe"
+			"value" : "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/ar.exe"
 		},
 		{
 			"name" : "CMAKE_BACKWARDS_COMPATIBILITY",
@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug"
+			"value" : "c:/Users/HP/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -207,7 +207,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/g++.exe"
+			"value" : "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/g++.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -223,7 +223,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/gcc-ar.exe"
+			"value" : "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -239,7 +239,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/gcc-ranlib.exe"
+			"value" : "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -351,7 +351,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/gcc.exe"
+			"value" : "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/gcc.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -367,7 +367,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/gcc-ar.exe"
+			"value" : "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -383,7 +383,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/gcc-ranlib.exe"
+			"value" : "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -495,7 +495,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/dlltool.exe"
+			"value" : "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++;D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32;D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward;D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include;D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed;D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"
+			"value" : "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++;D:/soft/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32;D:/soft/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward;D:/soft/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include;D:/soft/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed;D:/soft/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"
 		},
 		{
 			"name" : "CMAKE_EXTRA_GENERATOR_C_SYSTEM_DEFINED_MACROS",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include;D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed;D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"
+			"value" : "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include;D:/soft/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed;D:/soft/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"
 		},
 		{
 			"name" : "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/HP/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -731,7 +731,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/mali/Desktop/lua/lua5.4.6/testLua"
+			"value" : "C:/Users/HP/Desktop/lua/lua5.4.6/testLua"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -759,7 +759,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/ld.exe"
+			"value" : "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/ld.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -775,7 +775,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe"
+			"value" : "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -871,7 +871,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/nm.exe"
+			"value" : "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/nm.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -899,7 +899,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/objcopy.exe"
+			"value" : "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/objcopy.exe"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -915,7 +915,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/objdump.exe"
+			"value" : "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/objdump.exe"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -939,7 +939,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "D:/soft/Qt/Qt5.14.2/5.14.2/mingw73_64"
+			"value" : "D:/soft/Qt5.14.2/5.14.2/mingw73_64"
 		},
 		{
 			"name" : "CMAKE_PROJECT_DESCRIPTION",
@@ -991,7 +991,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/ranlib.exe"
+			"value" : "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER",
@@ -1007,7 +1007,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/windres.exe"
+			"value" : "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/windres.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -1115,7 +1115,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/readelf.exe"
+			"value" : "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/readelf.exe"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1335,7 +1335,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/strip.exe"
+			"value" : "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/strip.exe"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1387,7 +1387,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "D:/soft/Qt/Qt5.14.2/5.14.2/mingw73_64/bin/qmake.exe"
+			"value" : "D:/soft/Qt5.14.2/5.14.2/mingw73_64/bin/qmake.exe"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
@@ -1411,7 +1411,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua"
+			"value" : "C:/Users/HP/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua"
 		},
 		{
 			"name" : "libLua_IS_TOP_LEVEL",
@@ -1435,7 +1435,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua"
+			"value" : "C:/Users/HP/Desktop/lua/lua5.4.6/testLua/libLua"
 		},
 		{
 			"name" : "testLua_BINARY_DIR",
@@ -1447,7 +1447,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug"
+			"value" : "C:/Users/HP/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug"
 		},
 		{
 			"name" : "testLua_IS_TOP_LEVEL",
@@ -1471,7 +1471,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/mali/Desktop/lua/lua5.4.6/testLua"
+			"value" : "C:/Users/HP/Desktop/lua/lua5.4.6/testLua"
 		}
 	],
 	"kind" : "cache",

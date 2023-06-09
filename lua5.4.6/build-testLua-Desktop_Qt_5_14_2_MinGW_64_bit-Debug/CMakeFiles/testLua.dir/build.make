@@ -52,10 +52,10 @@ RM = D:\soft\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\mali\Desktop\lua\lua5.4.6\testLua
+CMAKE_SOURCE_DIR = C:\Users\HP\Desktop\lua\lua5.4.6\testLua
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\mali\Desktop\lua\lua5.4.6\build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug
+CMAKE_BINARY_DIR = C:\Users\HP\Desktop\lua\lua5.4.6\build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/testLua.dir/depend.make
@@ -68,35 +68,35 @@ include CMakeFiles/testLua.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/testLua.dir/flags.make
 
-CMakeFiles/testLua.dir/main.obj: CMakeFiles/testLua.dir/flags.make
-CMakeFiles/testLua.dir/main.obj: CMakeFiles/testLua.dir/includes_CXX.rsp
-CMakeFiles/testLua.dir/main.obj: C:/Users/mali/Desktop/lua/lua5.4.6/testLua/main.cpp
-CMakeFiles/testLua.dir/main.obj: CMakeFiles/testLua.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mali\Desktop\lua\lua5.4.6\build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testLua.dir/main.obj"
-	D:\soft\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testLua.dir/main.obj -MF CMakeFiles\testLua.dir\main.obj.d -o CMakeFiles\testLua.dir\main.obj -c C:\Users\mali\Desktop\lua\lua5.4.6\testLua\main.cpp
+CMakeFiles/testLua.dir/main2.obj: CMakeFiles/testLua.dir/flags.make
+CMakeFiles/testLua.dir/main2.obj: CMakeFiles/testLua.dir/includes_CXX.rsp
+CMakeFiles/testLua.dir/main2.obj: C:/Users/HP/Desktop/lua/lua5.4.6/testLua/main2.cpp
+CMakeFiles/testLua.dir/main2.obj: CMakeFiles/testLua.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\HP\Desktop\lua\lua5.4.6\build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testLua.dir/main2.obj"
+	D:\soft\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testLua.dir/main2.obj -MF CMakeFiles\testLua.dir\main2.obj.d -o CMakeFiles\testLua.dir\main2.obj -c C:\Users\HP\Desktop\lua\lua5.4.6\testLua\main2.cpp
 
-CMakeFiles/testLua.dir/main.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testLua.dir/main.i"
-	D:\soft\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mali\Desktop\lua\lua5.4.6\testLua\main.cpp > CMakeFiles\testLua.dir\main.i
+CMakeFiles/testLua.dir/main2.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testLua.dir/main2.i"
+	D:\soft\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HP\Desktop\lua\lua5.4.6\testLua\main2.cpp > CMakeFiles\testLua.dir\main2.i
 
-CMakeFiles/testLua.dir/main.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testLua.dir/main.s"
-	D:\soft\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mali\Desktop\lua\lua5.4.6\testLua\main.cpp -o CMakeFiles\testLua.dir\main.s
+CMakeFiles/testLua.dir/main2.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testLua.dir/main2.s"
+	D:\soft\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HP\Desktop\lua\lua5.4.6\testLua\main2.cpp -o CMakeFiles\testLua.dir\main2.s
 
 # Object files for target testLua
 testLua_OBJECTS = \
-"CMakeFiles/testLua.dir/main.obj"
+"CMakeFiles/testLua.dir/main2.obj"
 
 # External object files for target testLua
 testLua_EXTERNAL_OBJECTS =
 
-testLua.exe: CMakeFiles/testLua.dir/main.obj
+testLua.exe: CMakeFiles/testLua.dir/main2.obj
 testLua.exe: CMakeFiles/testLua.dir/build.make
 testLua.exe: libLua/liblibLua.a
 testLua.exe: CMakeFiles/testLua.dir/linkLibs.rsp
 testLua.exe: CMakeFiles/testLua.dir/objects1.rsp
 testLua.exe: CMakeFiles/testLua.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\mali\Desktop\lua\lua5.4.6\build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable testLua.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\HP\Desktop\lua\lua5.4.6\build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable testLua.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\testLua.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/testLua.dir/clean:
 .PHONY : CMakeFiles/testLua.dir/clean
 
 CMakeFiles/testLua.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\mali\Desktop\lua\lua5.4.6\testLua C:\Users\mali\Desktop\lua\lua5.4.6\testLua C:\Users\mali\Desktop\lua\lua5.4.6\build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug C:\Users\mali\Desktop\lua\lua5.4.6\build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug C:\Users\mali\Desktop\lua\lua5.4.6\build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug\CMakeFiles\testLua.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\HP\Desktop\lua\lua5.4.6\testLua C:\Users\HP\Desktop\lua\lua5.4.6\testLua C:\Users\HP\Desktop\lua\lua5.4.6\build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug C:\Users\HP\Desktop\lua\lua5.4.6\build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug C:\Users\HP\Desktop\lua\lua5.4.6\build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug\CMakeFiles\testLua.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/testLua.dir/depend
 

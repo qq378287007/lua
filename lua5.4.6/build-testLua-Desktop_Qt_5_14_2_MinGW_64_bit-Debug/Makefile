@@ -56,10 +56,10 @@ RM = D:\soft\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\mali\Desktop\lua\lua5.4.6\testLua
+CMAKE_SOURCE_DIR = C:\Users\HP\Desktop\lua\lua5.4.6\testLua
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\mali\Desktop\lua\lua5.4.6\build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug
+CMAKE_BINARY_DIR = C:\Users\HP\Desktop\lua\lua5.4.6\build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\mali\Desktop\lua\lua5.4.6\build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug\CMakeFiles C:\Users\mali\Desktop\lua\lua5.4.6\build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HP\Desktop\lua\lua5.4.6\build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug\CMakeFiles C:\Users\HP\Desktop\lua\lua5.4.6\build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\mali\Desktop\lua\lua5.4.6\build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HP\Desktop\lua\lua5.4.6\build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,19 +142,19 @@ libLua/fast:
 .PHONY : libLua/fast
 
 # target to build an object file
-main.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testLua.dir\build.make CMakeFiles/testLua.dir/main.obj
-.PHONY : main.obj
+main2.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testLua.dir\build.make CMakeFiles/testLua.dir/main2.obj
+.PHONY : main2.obj
 
 # target to preprocess a source file
-main.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testLua.dir\build.make CMakeFiles/testLua.dir/main.i
-.PHONY : main.i
+main2.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testLua.dir\build.make CMakeFiles/testLua.dir/main2.i
+.PHONY : main2.i
 
 # target to generate assembly for a file
-main.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testLua.dir\build.make CMakeFiles/testLua.dir/main.s
-.PHONY : main.s
+main2.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testLua.dir\build.make CMakeFiles/testLua.dir/main2.s
+.PHONY : main2.s
 
 # Help Target
 help:
@@ -166,9 +166,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... libLua
 	@echo ... testLua
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... main2.obj
+	@echo ... main2.i
+	@echo ... main2.s
 .PHONY : help
 
 

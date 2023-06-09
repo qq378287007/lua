@@ -1,0 +1,116 @@
+#include <string>
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+#include "lua.hpp"
+
+class LuaManager {
+public:
+    LuaManager(){
+        L = luaL_newstate();
+        luaL_openlibs(L);
+
+        string str{"sin = math.sin; cos = math.cos;"};
+        luaL_dostring(L, str.c_str());
+    }
+    ~LuaManager(){
+        lua_close(L);
+    }
+
+public:
+    double getVar(const string &name, bool *ok = nullptr){
+        if(ok != nullptr)
+            *ok = false;
+
+        int type = lua_getglobal(L, name.c_str());
+        if(type != LUA_TNUMBER)
+            return 0.0;
+
+        if(ok != nullptr)
+            *ok = true;
+        return lua_tonumber(L, -1);
+    }
+
+    void setVarNum(const string &name, double number){
+        lua_pushnumber(L, number);
+        lua_setglobal(L, name.c_str());
+    }
+
+    bool setVarStr(const string &name, const string &str){
+        string exp{name + " = " + str};
+        return luaL_dostring(L, exp.c_str()) == 0;
+    }
+
+    double eval(const string &expression, bool *ok = nullptr){
+        if(ok != nullptr)
+            *ok = false;
+
+        string str{"return " + expression};
+        if(luaL_dostring(L, str.c_str()) != 0)
+            return 0.0;
+
+        if(ok != nullptr)
+            *ok = true;
+        return lua_tonumber(L, -1);
+    }
+
+    double evalScript(const string &expression, bool *ok = nullptr){
+        if(ok != nullptr)
+            *ok = false;
+
+        if(luaL_dostring(L, expression.c_str()) != 0)
+            return 0.0;
+
+        if(ok != nullptr)
+            *ok = true;
+        return lua_tonumber(L, -1);
+    }
+
+private:
+    lua_State *L;
+};
+
+int main(){
+    if(1)
+    {
+        LuaManager m_Lua;
+        bool ok;
+        string var;
+        double value;
+        string expression;
+
+        var = "a";
+        m_Lua.getVar(var, &ok);
+        if(!ok){
+            cout <<"var " <<var <<" not exist" <<endl;
+        }
+
+        m_Lua.setVarNum(var, 1.256);
+        value = m_Lua.getVar("a", &ok);
+        if(ok){
+            cout<<"var "<<var<<" exist: "<<var <<" = " <<value <<endl;
+        }
+
+        var = "b";
+        m_Lua.setVarStr(var, "3.156");
+        value = m_Lua.getVar(var, &ok);
+        if(ok){
+            cout<<"var "<<var<<" exist: "<<var <<" = " <<value <<endl;
+        }
+
+        expression = "a + b * 5 + 6.9 + sin(math.pi)";
+        value = m_Lua.eval(expression, &ok);
+        if(ok){
+            cout<<expression <<" = " <<value <<endl;
+        }
+
+        expression = "if(a>b) then  return 2.5; else return 3.6;end";
+        value = m_Lua.evalScript(expression, &ok);
+        if(ok){
+            cout<<expression <<" = " <<value <<endl;
+        }
+    }
+
+    return 0;
+}

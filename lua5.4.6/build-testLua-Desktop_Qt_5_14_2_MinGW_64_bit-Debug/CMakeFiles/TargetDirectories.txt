@@ -1,6 +1,6 @@
-C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/CMakeFiles/testLua.dir
-C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
-C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua/CMakeFiles/libLua.dir
-C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua/CMakeFiles/edit_cache.dir
-C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua/CMakeFiles/rebuild_cache.dir
+C:/Users/HP/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/CMakeFiles/testLua.dir
+C:/Users/HP/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/HP/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/HP/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua/CMakeFiles/libLua.dir
+C:/Users/HP/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua/CMakeFiles/edit_cache.dir
+C:/Users/HP/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/libLua/CMakeFiles/rebuild_cache.dir

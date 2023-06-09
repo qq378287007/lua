@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/mali/Desktop/lua/lua5.4.6/testLua/main.cpp" "CMakeFiles/testLua.dir/main.obj" "gcc" "CMakeFiles/testLua.dir/main.obj.d"
+  "C:/Users/HP/Desktop/lua/lua5.4.6/testLua/main2.cpp" "CMakeFiles/testLua.dir/main2.obj" "gcc" "CMakeFiles/testLua.dir/main2.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

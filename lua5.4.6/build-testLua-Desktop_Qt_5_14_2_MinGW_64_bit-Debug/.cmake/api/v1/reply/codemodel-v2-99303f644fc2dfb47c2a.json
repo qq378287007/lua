@@ -66,14 +66,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "libLua::@feaf161a24683964678a",
-					"jsonFile" : "target-libLua-Debug-859b64a5766ff4db6182.json",
+					"jsonFile" : "target-libLua-Debug-ce5076ead0e22a0aaf99.json",
 					"name" : "libLua",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "testLua::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-testLua-Debug-4e89bc42e1ba6986b0e6.json",
+					"jsonFile" : "target-testLua-Debug-c5816bb7cf5e09fec448.json",
 					"name" : "testLua",
 					"projectIndex" : 0
 				}
@@ -83,8 +83,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/mali/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug",
-		"source" : "C:/Users/mali/Desktop/lua/lua5.4.6/testLua"
+		"build" : "C:/Users/HP/Desktop/lua/lua5.4.6/build-testLua-Desktop_Qt_5_14_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/HP/Desktop/lua/lua5.4.6/testLua"
 	},
 	"version" : 
 	{

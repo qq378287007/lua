@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/mali/Desktop/lua/lua5.4.6/testLua/libLua
+# Install script for directory: C:/Users/HP/Desktop/lua/lua5.4.6/testLua/libLua
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/soft/Qt/Qt5.14.2/Tools/mingw730_64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/soft/Qt5.14.2/Tools/mingw730_64/bin/objdump.exe")
 endif()
 

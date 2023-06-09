@@ -482,9 +482,9 @@ int main(){
     start = clock();
     cout << "****eval****" << endl;
     for (int i = 0; i < 9999; i++) {
-        string str{ "math.sin(math.cos(var" + to_string(i) + " - a) + b) - d*a " };
+        string str{ "mysin(math.cos(var" + to_string(i) + " - a) + b) - d*a " };
         double value = vars.eval(str);
-        //cout << str << " = " << value << endl;
+        cout << str << " = " << value << endl;
     }
     cout << "****eval****" << endl;
     end = clock();

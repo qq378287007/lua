@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/testLua.dir/main.obj"
-  "CMakeFiles/testLua.dir/main.obj.d"
+  "CMakeFiles/testLua.dir/main2.obj"
+  "CMakeFiles/testLua.dir/main2.obj.d"
   "libtestLua.dll.a"
   "testLua.exe"
   "testLua.exe.manifest"
