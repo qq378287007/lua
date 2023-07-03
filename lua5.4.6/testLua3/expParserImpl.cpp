@@ -1,5 +1,36 @@
 #include "expParserImpl.h"
 
+//#include <cmath>
+
+#include <math.h>
+
+static int l_cot(lua_State *L)
+{
+    // 如果给定虚拟栈中索引处的元素可以转换为数字，则返回转换后的数字，否则报错。
+    double d = luaL_checknumber(L, 1);
+    lua_pushnumber(L, cos(d) / sin(d));  // push result
+
+    /* 这里可以看出，C可以返回给Lua多个结果，
+     * 通过多次调用lua_push*()，之后return返回结果的数量。
+     */
+    return 1;  // number of results
+}
+
+
+
+
+static int l_log10(lua_State *L)
+{
+    // 如果给定虚拟栈中索引处的元素可以转换为数字，则返回转换后的数字，否则报错。
+    double d = luaL_checknumber(L, 1);
+    lua_pushnumber(L, log10(d));  // push result
+
+    /* 这里可以看出，C可以返回给Lua多个结果，
+     * 通过多次调用lua_push*()，之后return返回结果的数量。
+     */
+    return 1;  // number of results
+}
+
 QString ExpParserImpl::error{"none"};
 
 ExpParserImpl::ExpParserImpl()
@@ -7,8 +38,25 @@ ExpParserImpl::ExpParserImpl()
     m_LuaStater = luaL_newstate();
     luaL_openlibs(m_LuaStater);
 
-    QString str{"sin = math.sin; cos = math.cos;"};
+    QString str{"sin = math.sin; cos = math.cos;"
+                "tan = math.tan; abs = math.abs;"
+                "acos = math.acos; asin = math.asin;"
+                "atan = math.atan; exp = math.exp;"
+                "log = math.log; "
+                "sqrt = math.sqrt; int = math.floor;"
+                "min = math.min; max = math.max;"};
     luaL_dostring(m_LuaStater, str.toStdString().c_str());
+
+
+    lua_pushcfunction(m_LuaStater, l_cot);    // 将C函数转换为Lua的"function"并压入虚拟栈。
+    lua_setglobal(m_LuaStater, "cot");    // 弹出栈顶元素，并在Lua中用名为"mysin"的全局变量存储。
+
+    //printf("top: %d\n", lua_gettop(m_LuaStater));
+
+    lua_pushcfunction(m_LuaStater, l_log10);    // 将C函数转换为Lua的"function"并压入虚拟栈。
+    lua_setglobal(m_LuaStater, "log10");    // 弹出栈顶元素，并在Lua中用名为"mysin"的全局变量存储。
+
+    //printf("top: %d\n", lua_gettop(m_LuaStater));
 
     //默认栈大小是44
     lua_checkstack(m_LuaStater, 100);
@@ -148,7 +196,7 @@ bool ExpParserImpl::updateVariableExp(const QString &name, const QString &exp)
     }
     lua_pop(m_LuaStater, 1);
 
-    QString str{QString("%1 = %2").arg(name).arg(exp)};
+    QString str{QString("%1 = 0 + %2").arg(name).arg(exp)};
     int errorCode = luaL_dostring(m_LuaStater, str.toStdString().c_str());
     if (errorCode != LUA_OK)
     {
@@ -167,7 +215,7 @@ bool ExpParserImpl::updateVariableExp(const QString &name, const QString &exp)
 QPair<bool, double> ExpParserImpl::evalExp(const QString &exp)
 {
     //return，栈顶+1
-    QString str{QString("return %1").arg(exp)};
+    QString str{QString("return 0 + %1").arg(exp)};
     int errorCode = luaL_dostring(m_LuaStater, str.toStdString().c_str());
     if (errorCode != LUA_OK)
     {
@@ -181,6 +229,17 @@ QPair<bool, double> ExpParserImpl::evalExp(const QString &exp)
 
     double value = lua_tonumber(m_LuaStater, -1);
     lua_pop(m_LuaStater, 1);
+
+    if(isnan(value)){
+        error = "not a number";
+        return qMakePair(false, value);
+    }
+
+
+    if(isinf(value)){
+        error = "infinite";
+        return qMakePair(false, value);
+    }
 
     error = "none";
     return qMakePair(true, value);
@@ -209,6 +268,17 @@ QPair<bool, double> ExpParserImpl::evalScript(const QString &script)
 
     double value = lua_tonumber(m_LuaStater, -1);
     lua_pop(m_LuaStater, 1);
+
+    if(isnan(value)){
+        error = "not a number";
+        return qMakePair(false, value);
+    }
+
+
+    if(isinf(value)){
+        error = "infinite";
+        return qMakePair(false, value);
+    }
 
     error = "none";
     return qMakePair(true, value);

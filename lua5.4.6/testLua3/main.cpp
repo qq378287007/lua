@@ -2,6 +2,7 @@
 #include <ctime>
 using namespace std;
 
+#include <QStringList>
 #include "expParserImpl.h"
 
 
@@ -163,7 +164,7 @@ int main()
     }
 
 
-    if(1){
+    if(0){
         clock_t start;
         clock_t end;
 
@@ -259,6 +260,29 @@ int main()
         cout<< vars.getVariableNum("a").second<<endl;
     }
 
+
+
+    if(1){
+        ExpParserImpl vars;
+        double x = 1.199;
+        double y = 2.5;
+        vars.addVariableNum("x", x);
+        vars.addVariableNum("y", y);
+
+        cout << QString("x = %1").arg(x).toStdString() << endl;
+        cout << QString("y = %1").arg(y).toStdString() << endl;
+
+        QStringList exps{"sin(x)", "cos(x)", "tan(x)", "abs(x)",
+                         "acos(x)", "asin(x)", "atan(x)",
+                         "exp(x)", "log(x)", "log10(x)", "sqrt(x)", "int(x)", "cot(x)",
+                         "0.0/0.0", "1.0/0.0", "0/0", "log(0.0)", "min(x, y)", "max(x, y)"
+                        };
+        QPair<bool, double> result;
+        foreach(auto exp, exps){
+            result = vars.evalExp(exp);
+            cout << QString("%1: %2 = %3").arg(result.first).arg(exp).arg(result.second).toStdString() << endl;
+        }
+    }
 
 
     cout << "Over!\n";
